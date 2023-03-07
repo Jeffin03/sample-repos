@@ -1,11 +1,11 @@
 package main
-import{
-	fmt
-}
 
-func main{
-	fmt.print("hello");
-	fmt.print("bye")
-	fmt.print("see you tomorrow")
-	
+import "fmt"
+
+func main() {
+	var i int = 10
+	var s string = "Canada"
+
+	fmt.Println(i)
+	fmt.Println(s)
 }
